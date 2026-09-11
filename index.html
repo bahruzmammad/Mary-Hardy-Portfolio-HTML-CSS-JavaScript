@@ -1,0 +1,803 @@
+<!doctype html>
+<html lang="az">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Icons and Slider -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+        <!-- Main Styles -->
+        <link rel="stylesheet" href="css/styles.css" />
+        <title>Mary Hardy | Rəqəmsal Marketinq Mütəxəssisi</title>
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="navigation">
+            <div class="navigation__header">
+                <div class="navigation__logo">
+                    <a href="#home">MARY<span>.</span></a>
+                </div>
+                <button
+                    class="navigation__menu-button"
+                    id="menu-button"
+                    type="button"
+                    aria-label="Menyu"
+                >
+                    <i class="ri-menu-line"></i>
+                </button>
+            </div>
+            <ul class="navigation__links" id="navigation-links">
+                <li><a href="#home">Ana Səhifə</a></li>
+                <li><a href="#about">Haqqımda</a></li>
+                <li><a href="#services">Xidmətlər</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#clients">Müştərilər</a></li>
+                <li><a href="#blog">Bloq</a></li>
+            </ul>
+            <div class="navigation__actions">
+                <a class="button" href="#contact">Əlaqə Saxla</a>
+            </div>
+        </nav>
+        <!-- Hero -->
+        <header class="hero" id="home">
+            <div class="section-container hero__container">
+                <div class="hero__content">
+                    <p class="hero__greeting">Salam, mən</p>
+                    <h1 class="hero__title">Mary Hardy</h1>
+                    <h2 class="hero__subtitle">
+                        Rəqəmsal Marketinq Mütəxəssisi
+                    </h2>
+                    <p class="hero__description">
+                        Brendlərin onlayn inkişafına kömək edən, effektiv
+                        rəqəmsal strategiyalar hazırlayan və nəticəyə fokuslanan
+                        marketinq mütəxəssisiyəm.
+                    </p>
+                    <div class="hero__actions">
+                        <a class="button" href="#" download>CV-ni Endir</a>
+                        <a class="button" href="#contact">Mənimlə Əlaqə</a>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <img
+                        src="assets/images/header.png"
+                        alt="Mary Hardy rəqəmsal marketinq mütəxəssisi"
+                    />
+                </div>
+            </div>
+        </header>
+        <main>
+            <!-- About -->
+            <section class="section-container about" id="about">
+                <div class="about__image">
+                    <img
+                        src="assets/images/intro.png"
+                        alt="Mary Hardy iş prosesində"
+                    />
+                </div>
+                <div class="about__content">
+                    <p class="section-subheader">Haqqımda</p>
+                    <h2 class="section-header">Mən Kiməm?</h2>
+                    <p class="about__description">
+                        Mən Mary Hardy, rəqəmsal marketinq sahəsində çalışan və
+                        brendlərin onlayn görünürlüğünü artırmağa fokuslanan
+                        mütəxəssisəm. SEO, sosial media, məzmun strategiyası və
+                        analitika sahələrində çalışaraq bizneslərin rəqəmsal
+                        inkişafına dəstək oluram.
+                    </p>
+                    <div class="about__details">
+                        <div class="about__detail">
+                            <h3>
+                                <span><i class="ri-user-line"></i></span> Ad
+                            </h3>
+                            <span>:</span>
+                            <p>Mary Hardy</p>
+                        </div>
+                        <div class="about__detail">
+                            <h3>
+                                <span><i class="ri-phone-line"></i></span>
+                                Telefon
+                            </h3>
+                            <span>:</span>
+                            <p>09 9876 54321</p>
+                        </div>
+                        <div class="about__detail">
+                            <h3>
+                                <span><i class="ri-mail-line"></i></span> E-poçt
+                            </h3>
+                            <span>:</span>
+                            <p>mary.hardy@gmail.com</p>
+                        </div>
+                    </div>
+                    <h3 class="about__interests-title">Maraqlarım</h3>
+                    <div class="about__interests">
+                        <div class="about__interest">
+                            <span><i class="ri-headphone-line"></i></span>
+                            <p>Musiqi</p>
+                        </div>
+                        <div class="about__interest">
+                            <span><i class="ri-briefcase-3-line"></i></span>
+                            <p>Səyahət</p>
+                        </div>
+                        <div class="about__interest">
+                            <span><i class="ri-film-line"></i></span>
+                            <p>Kino</p>
+                        </div>
+                        <div class="about__interest">
+                            <span><i class="ri-camera-line"></i></span>
+                            <p>Fotoqrafiya</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Expertise -->
+            <section class="expertise" id="expertise">
+                <div class="section-container expertise__container">
+                    <p class="section-subheader">Bacarıqlarım</p>
+                    <h2 class="section-header">Peşəkar Bacarıqlarım</h2>
+                    <div class="expertise__grid">
+                        <div class="expertise__card">
+                            <div class="expertise__header">
+                                <h3>SEO</h3>
+                                <span>80%</span>
+                            </div>
+                            <div
+                                class="expertise__progress"
+                                style="--progress: 80%"
+                            ></div>
+                        </div>
+                        <div class="expertise__card">
+                            <div class="expertise__header">
+                                <h3>Sosial Media Marketinqi</h3>
+                                <span>95%</span>
+                            </div>
+                            <div
+                                class="expertise__progress"
+                                style="--progress: 95%"
+                            ></div>
+                        </div>
+                        <div class="expertise__card">
+                            <div class="expertise__header">
+                                <h3>Məzmun Strategiyası</h3>
+                                <span>85%</span>
+                            </div>
+                            <div
+                                class="expertise__progress"
+                                style="--progress: 85%"
+                            ></div>
+                        </div>
+                        <div class="expertise__card">
+                            <div class="expertise__header">
+                                <h3>Ödənişli Reklamlar</h3>
+                                <span>80%</span>
+                            </div>
+                            <div
+                                class="expertise__progress"
+                                style="--progress: 80%"
+                            ></div>
+                        </div>
+                        <div class="expertise__card">
+                            <div class="expertise__header">
+                                <h3>E-poçt Marketinqi</h3>
+                                <span>75%</span>
+                            </div>
+                            <div
+                                class="expertise__progress"
+                                style="--progress: 75%"
+                            ></div>
+                        </div>
+                        <div class="expertise__card">
+                            <div class="expertise__header">
+                                <h3>Veb Analitika</h3>
+                                <span>85%</span>
+                            </div>
+                            <div
+                                class="expertise__progress"
+                                style="--progress: 85%"
+                            ></div>
+                        </div>
+                        <div class="expertise__card">
+                            <div class="expertise__header">
+                                <h3>Brend Strategiyası</h3>
+                                <span>95%</span>
+                            </div>
+                            <div
+                                class="expertise__progress"
+                                style="--progress: 95%"
+                            ></div>
+                        </div>
+                        <div class="expertise__card">
+                            <div class="expertise__header">
+                                <h3>İnfluencer Marketinqi</h3>
+                                <span>70%</span>
+                            </div>
+                            <div
+                                class="expertise__progress"
+                                style="--progress: 70%"
+                            ></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Journey -->
+            <section class="section-container journey" id="journey">
+                <p class="section-subheader">Təhsil və Təcrübə</p>
+                <h2 class="section-header">Peşəkar Yolum</h2>
+                <div class="journey__grid">
+                    <div class="journey__column">
+                        <div class="journey__heading">
+                            <span><i class="ri-graduation-cap-line"></i></span>
+                            <h3>Təhsil</h3>
+                        </div>
+                        <article class="journey__card">
+                            <span class="journey__marker">
+                                <i class="ri-circle-fill"></i>
+                            </span>
+                            <div class="journey__content">
+                                <h3>Rəqəmsal Marketinq üzrə Magistr</h3>
+                                <h4>Rəqəmsal marketinq və strategiya</h4>
+                                <p>
+                                    <span
+                                        ><i class="ri-calendar-fill"></i
+                                    ></span>
+                                    2018-2020
+                                </p>
+                            </div>
+                        </article>
+                        <article class="journey__card">
+                            <span class="journey__marker">
+                                <i class="ri-circle-fill"></i>
+                            </span>
+                            <div class="journey__content">
+                                <h3>Biznes Administrasiyası üzrə Bakalavr</h3>
+                                <h4>Marketinq və biznes strategiyaları</h4>
+                                <p>
+                                    <span
+                                        ><i class="ri-calendar-fill"></i
+                                    ></span>
+                                    2016-2018
+                                </p>
+                            </div>
+                        </article>
+                        <article class="journey__card">
+                            <span class="journey__marker">
+                                <i class="ri-circle-fill"></i>
+                            </span>
+                            <div class="journey__content">
+                                <h3>Sertifikatlı SEO Mütəxəssisi</h3>
+                                <h4>SEO üzrə ixtisaslaşmış təlim</h4>
+                                <p>
+                                    <span
+                                        ><i class="ri-calendar-fill"></i
+                                    ></span>
+                                    2017-2020
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="journey__column">
+                        <div class="journey__heading">
+                            <span><i class="ri-briefcase-line"></i></span>
+                            <h3>İş Təcrübəsi</h3>
+                        </div>
+                        <article class="journey__card">
+                            <span class="journey__marker">
+                                <i class="ri-circle-fill"></i>
+                            </span>
+                            <div class="journey__content">
+                                <h3>Rəqəmsal Marketinq Meneceri</h3>
+                                <h4>XYZ Agency</h4>
+                                <p>
+                                    <span
+                                        ><i class="ri-calendar-fill"></i
+                                    ></span>
+                                    2023-2024
+                                </p>
+                            </div>
+                        </article>
+                        <article class="journey__card">
+                            <span class="journey__marker">
+                                <i class="ri-circle-fill"></i>
+                            </span>
+                            <div class="journey__content">
+                                <h3>Sosial Media Strateqi</h3>
+                                <h4>ABC Corp</h4>
+                                <p>
+                                    <span
+                                        ><i class="ri-calendar-fill"></i
+                                    ></span>
+                                    2021-2023
+                                </p>
+                            </div>
+                        </article>
+                        <article class="journey__card">
+                            <span class="journey__marker">
+                                <i class="ri-circle-fill"></i>
+                            </span>
+                            <div class="journey__content">
+                                <h3>Marketinq Təcrübəçisi</h3>
+                                <h4>DEF Solutions</h4>
+                                <p>
+                                    <span
+                                        ><i class="ri-calendar-fill"></i
+                                    ></span>
+                                    2020-2021
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <!-- Services -->
+            <section class="section-container services" id="services">
+                <p class="section-subheader">Xidmətlərim</p>
+                <h2 class="section-header">Sizə Nə Təklif Edirəm</h2>
+                <div class="services__grid">
+                    <article class="services__card">
+                        <span><i class="ri-window-fill"></i></span>
+                        <h3>Veb Sayt Dizaynı</h3>
+                        <p>
+                            Müasir, rahat və istifadəçi yönümlü veb sayt
+                            interfeysləri hazırlayaraq biznesinizin onlayn
+                            görünüşünü yaxşılaşdırıram.
+                        </p>
+                    </article>
+                    <article class="services__card">
+                        <span><i class="ri-store-line"></i></span>
+                        <h3>E-ticarət Həlləri</h3>
+                        <p>
+                            İstifadəsi rahat və təhlükəsiz onlayn mağazalar
+                            hazırlayaraq müştəri təcrübəsinin inkişafına kömək
+                            edirəm.
+                        </p>
+                    </article>
+                    <article class="services__card">
+                        <span><i class="ri-smartphone-line"></i></span>
+                        <h3>Mobil Tətbiq İnkişafı</h3>
+                        <p>
+                            Müxtəlif platformalar üçün sürətli və rahat işləyən
+                            mobil tətbiqlərin hazırlanmasına dəstək oluram.
+                        </p>
+                    </article>
+                    <article class="services__card">
+                        <span><i class="ri-share-fill"></i></span>
+                        <h3>Məzmun Marketinqi</h3>
+                        <p>
+                            Bloq, sosial media və digər rəqəmsal kanallar üçün
+                            faydalı və maraqlı məzmun hazırlayıram.
+                        </p>
+                    </article>
+                    <article class="services__card">
+                        <span><i class="ri-seo-line"></i></span>
+                        <h3>SEO</h3>
+                        <p>
+                            Veb saytınızın axtarış sistemlərində daha yaxşı
+                            görünməsi üçün uyğun SEO strategiyaları
+                            hazırlayıram.
+                        </p>
+                    </article>
+                    <article class="services__card">
+                        <span><i class="ri-share-circle-line"></i></span>
+                        <h3>Rəqəmsal Marketinq</h3>
+                        <p>
+                            Sosial media, reklam və digər rəqəmsal kanallardan
+                            istifadə edərək brendinizin auditoriyasını
+                            genişləndirirəm.
+                        </p>
+                    </article>
+                </div>
+            </section>
+            <!-- Portfolio -->
+            <section class="portfolio" id="portfolio">
+                <div class="section-container portfolio__container">
+                    <p class="section-subheader">Portfolio</p>
+                    <h2 class="section-header">Son İşlərim</h2>
+                    <div class="portfolio__filters">
+                        <button
+                            class="button mixitup-control-active"
+                            type="button"
+                            data-filter="all"
+                        >
+                            Hamısı
+                        </button>
+                        <button class="button" type="button" data-filter=".web">
+                            Veb
+                        </button>
+                        <button
+                            class="button"
+                            type="button"
+                            data-filter=".game"
+                        >
+                            Oyun
+                        </button>
+                        <button
+                            class="button"
+                            type="button"
+                            data-filter=".design"
+                        >
+                            Dizayn
+                        </button>
+                    </div>
+                    <div class="portfolio__grid">
+                        <article class="portfolio__card mix web">
+                            <img
+                                src="assets/images/project-1.jpg"
+                                alt="Veb layihə"
+                            />
+                        </article>
+                        <article class="portfolio__card mix web game">
+                            <img
+                                src="assets/images/project-2.jpg"
+                                alt="Veb və oyun layihəsi"
+                            />
+                        </article>
+                        <article class="portfolio__card mix design">
+                            <img
+                                src="assets/images/project-3.jpg"
+                                alt="Dizayn layihəsi"
+                            />
+                        </article>
+                        <article class="portfolio__card mix design web">
+                            <img
+                                src="assets/images/project-4.jpg"
+                                alt="Veb dizayn layihəsi"
+                            />
+                        </article>
+                        <article class="portfolio__card mix design game">
+                            <img
+                                src="assets/images/project-5.jpg"
+                                alt="Oyun dizayn layihəsi"
+                            />
+                        </article>
+                        <article class="portfolio__card mix design">
+                            <img
+                                src="assets/images/project-6.jpg"
+                                alt="Qrafik dizayn layihəsi"
+                            />
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <!-- Contact Banner -->
+            <section class="contact-banner" id="contact">
+                <div class="section-container contact-banner__container">
+                    <div class="contact-banner__content">
+                        <h2 class="section-header">Layihəniz Var?</h2>
+                        <p>
+                            Yeni layihəniz və ya marketinq ehtiyacınız haqqında
+                            danışaq. Məqsədlərinizə uyğun rəqəmsal həll
+                            hazırlamağa hazıram.
+                        </p>
+                        <a class="button" href="mailto:mary.hardy@gmail.com">
+                            Əlaqə Saxla
+                        </a>
+                    </div>
+                    <div class="contact-banner__image">
+                        <img
+                            src="assets/images/banner.png"
+                            alt="Rəqəmsal marketinq layihəsi"
+                        />
+                    </div>
+                </div>
+            </section>
+            <!-- Clients -->
+            <section class="section-container clients" id="clients">
+                <p class="section-subheader">Müştəri Rəyləri</p>
+                <h2 class="section-header">Müştərilərim Nə Deyir?</h2>
+                <div class="swiper clients__slider">
+                    <div class="swiper-wrapper">
+                        <article class="swiper-slide">
+                            <div class="client__card">
+                                <div class="client__header">
+                                    <div class="client__details">
+                                        <img
+                                            src="assets/images/client-1.jpg"
+                                            alt="James Carter"
+                                        />
+                                        <div>
+                                            <h3>James Carter</h3>
+                                            <h4>
+                                                TechNova şirkətində Marketinq
+                                                Meneceri
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="client__ratings"
+                                        aria-label="5 ulduz"
+                                    >
+                                        <span
+                                            ><i class="ri-star-fill"></i
+                                        ></span>
+                                        <span
+                                            ><i class="ri-star-fill"></i
+                                        ></span>
+                                        <span
+                                            ><i class="ri-star-fill"></i
+                                        ></span>
+                                        <span
+                                            ><i class="ri-star-fill"></i
+                                        ></span>
+                                        <span
+                                            ><i class="ri-star-fill"></i
+                                        ></span>
+                                    </div>
+                                </div>
+                                <p>
+                                    Mary ilə işləmək biznesimiz üçün çox yaxşı
+                                    seçim oldu. Onun sosial media strategiyası
+                                    auditoriyamızla daha yaxşı əlaqə qurmağımıza
+                                    kömək etdi.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="swiper-slide">
+                            <div class="client__card">
+                                <div class="client__header">
+                                    <div class="client__details">
+                                        <img
+                                            src="assets/images/client-2.jpg"
+                                            alt="Sophia Taylor"
+                                        />
+                                        <div>
+                                            <h3>Sophia Taylor</h3>
+                                            <h4>
+                                                Urban Trends şirkətinin rəhbəri
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="client__ratings"
+                                        aria-label="5 ulduz"
+                                    >
+                                        <span
+                                            ><i class="ri-star-fill"></i
+                                        ></span>
+                                        <span
+                                            ><i class="ri-star-fill"></i
+                                        ></span>
+                                        <span
+                                            ><i class="ri-star-fill"></i
+                                        ></span>
+                                        <span
+                                            ><i class="ri-star-fill"></i
+                                        ></span>
+                                        <span
+                                            ><i class="ri-star-fill"></i
+                                        ></span>
+                                    </div>
+                                </div>
+                                <p>
+                                    Hazırlanan marketinq strategiyaları onlayn
+                                    görünüşümüzün inkişafına ciddi şəkildə kömək
+                                    etdi. SEO və sosial media nəticələri
+                                    gözləntilərimizi doğrultdu.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="swiper-slide">
+                            <div class="client__card">
+                                <div class="client__header">
+                                    <div class="client__details">
+                                        <img
+                                            src="assets/images/client-3.jpg"
+                                            alt="Emma Wilson"
+                                        />
+                                        <div>
+                                            <h3>Emma Wilson</h3>
+                                            <h4>
+                                                GreenLife Co şirkətinin
+                                                təsisçisi
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="client__ratings"
+                                        aria-label="5 ulduz"
+                                    >
+                                        <span
+                                            ><i class="ri-star-fill"></i
+                                        ></span>
+                                        <span
+                                            ><i class="ri-star-fill"></i
+                                        ></span>
+                                        <span
+                                            ><i class="ri-star-fill"></i
+                                        ></span>
+                                        <span
+                                            ><i class="ri-star-fill"></i
+                                        ></span>
+                                        <span
+                                            ><i class="ri-star-fill"></i
+                                        ></span>
+                                    </div>
+                                </div>
+                                <p>
+                                    SEO üzrə görülən işlər saytımızın axtarış
+                                    nəticələrində daha yaxşı mövqe əldə etməsinə
+                                    kömək etdi. Trafik və potensial müştərilərin
+                                    sayı artdı.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="swiper-slide">
+                            <div class="client__card">
+                                <div class="client__header">
+                                    <div class="client__details">
+                                        <img
+                                            src="assets/images/client-4.jpg"
+                                            alt="Andrew Harris"
+                                        />
+                                        <div>
+                                            <h3>Andrew Harris</h3>
+                                            <h4>
+                                                Starline Ventures şirkətində
+                                                Layihə Rəhbəri
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="client__ratings"
+                                        aria-label="5 ulduz"
+                                    >
+                                        <span
+                                            ><i class="ri-star-fill"></i
+                                        ></span>
+                                        <span
+                                            ><i class="ri-star-fill"></i
+                                        ></span>
+                                        <span
+                                            ><i class="ri-star-fill"></i
+                                        ></span>
+                                        <span
+                                            ><i class="ri-star-fill"></i
+                                        ></span>
+                                        <span
+                                            ><i class="ri-star-fill"></i
+                                        ></span>
+                                    </div>
+                                </div>
+                                <p>
+                                    Mary ilə əməkdaşlıq etmək rahat idi.
+                                    Nəticəyə yönəlmiş yanaşması
+                                    kampaniyalarımızın daha düzgün qurulmasına
+                                    kömək etdi.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="swiper-slide">
+                            <div class="client__card">
+                                <div class="client__header">
+                                    <div class="client__details">
+                                        <img
+                                            src="assets/images/client-5.jpg"
+                                            alt="Lily Martinez"
+                                        />
+                                        <div>
+                                            <h3>Lily Martinez</h3>
+                                            <h4>
+                                                DesignEdge şirkətində Kreativ
+                                                Direktor
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="client__ratings"
+                                        aria-label="5 ulduz"
+                                    >
+                                        <span
+                                            ><i class="ri-star-fill"></i
+                                        ></span>
+                                        <span
+                                            ><i class="ri-star-fill"></i
+                                        ></span>
+                                        <span
+                                            ><i class="ri-star-fill"></i
+                                        ></span>
+                                        <span
+                                            ><i class="ri-star-fill"></i
+                                        ></span>
+                                        <span
+                                            ><i class="ri-star-fill"></i
+                                        ></span>
+                                    </div>
+                                </div>
+                                <p>
+                                    Mary brendimizin daha düzgün təqdim
+                                    olunmasına və auditoriyamızla daha yaxşı
+                                    əlaqə qurmasına kömək etdi. Onun
+                                    strategiyaları bizim üçün faydalı oldu.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            <!-- Blog -->
+            <section class="blog" id="blog">
+                <div class="section-container blog__container">
+                    <p class="section-subheader">Bloq</p>
+                    <h2 class="section-header">Son Yazılar</h2>
+                    <div class="blog__grid">
+                        <article class="blog__card">
+                            <img
+                                src="assets/images/blog-1.jpg"
+                                alt="SEO haqqında yazı"
+                            />
+                            <div class="blog__content">
+                                <p>20 İyul 2024</p>
+                                <h3>
+                                    SEO ilə Saytınızı Daha Yüksək Mövqeyə
+                                    Çıxarın
+                                </h3>
+                            </div>
+                        </article>
+                        <article class="blog__card">
+                            <img
+                                src="assets/images/blog-2.jpg"
+                                alt="Sosial media marketinqi haqqında yazı"
+                            />
+                            <div class="blog__content">
+                                <p>15 Oktyabr 2024</p>
+                                <h3>
+                                    2024-cü İlin Əsas Sosial Media Trendləri
+                                </h3>
+                            </div>
+                        </article>
+                        <article class="blog__card">
+                            <img
+                                src="assets/images/blog-3.jpg"
+                                alt="Rəqəmsal marketinq haqqında yazı"
+                            />
+                            <div class="blog__content">
+                                <p>08 Fevral 2024</p>
+                                <h3>
+                                    Biznes üçün 10 Effektiv Marketinq
+                                    Strategiyası
+                                </h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="section-container footer__container">
+                <h2>Mary Hardy</h2>
+                <div class="footer__socials">
+                    <a href="#" aria-label="Twitter">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
+                    <a href="#" aria-label="LinkedIn">
+                        <i class="ri-linkedin-fill"></i>
+                    </a>
+                    <a href="#" aria-label="Behance">
+                        <i class="ri-behance-fill"></i>
+                    </a>
+                    <a href="#" aria-label="Dribbble">
+                        <i class="ri-dribbble-line"></i>
+                    </a>
+                    <a href="#" aria-label="Pinterest">
+                        <i class="ri-pinterest-line"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__bar">
+                Copyright © 2024 Mary Hardy. Bütün hüquqlar qorunur.
+            </div>
+        </footer>
+        <!-- JavaScript Libraries -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <!-- Main JavaScript -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
